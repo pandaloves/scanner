@@ -27,10 +27,10 @@ public class MultiCatchExercise {
             positiveNumber(num);
 
         } catch (IOException | ArithmeticException e) {
-            System.out.println("IOException error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
 
         } catch (Exception e) {
-            System.out.println("Exception error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
 
         } finally {
             scanner.close();
